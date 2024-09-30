@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Recipe Blog</h1>
+        <div class="profile">
+            <img src="my img.jpg" alt="Profile Photo" class="profile-photo4">
+            <h2>Saraswati Kumari</h2>
+            <p>A passionate food lover sharing my favorite recipes.</p>
+            <!-- Button linking to Ras Malai recipe page -->
+            <button id="favRecipeButton" onclick="location.href='ras-malai.html'">Open My Favorite Recipe</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="recipes">
+            <h2>Favorite Recipes</h2>
+
+            <!-- Flexbox container for Ras Malai recipe -->
+            <div class="recipe-flex">
+                <div class="recipe-image">
+                    <img src="ras malai1.jpeg" alt="Ras Malai" class="profile-photo">
+                </div>
+                <div class="recipe-text">
+                    <h3>Ras Malai Recipe</h3>
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>1 liter full-fat milk</li>
+                        <li>1/2 cup sugar</li>
+                        <li>1/4 tsp cardamom powder</li>
+                        <li>10-12 saffron strands</li>
+                        <li>1/2 cup paneer (cottage cheese)</li>
+                        <li>Chopped pistachios and almonds for garnish</li>
+                    </ul>
+                    <h4>Instructions:</h4>
+                    <ol>
+                        <li>Boil milk in a pan and simmer for 10 minutes. Add sugar, saffron, and cardamom powder, and stir until sugar dissolves. Let it cool.</li>
+                        <li>Knead paneer until smooth. Make small, flat round balls.</li>
+                        <li>Add the paneer balls into the prepared syrup and refrigerate for 2-3 hours.</li>
+                        <li>Garnish with pistachios and almonds before serving.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Flexbox container for Chole Bhature recipe -->
+            <div class="recipe-flex">
+                <div class="recipe-image">
+                    <img src="bhature.jpeg" alt="Chole Bhature" class="profile-photo1">
+                </div>
+                <div class="recipe-text">
+                    <h3>Chole Bhature Recipe</h3>
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>1 cup chickpeas (soaked overnight)</li>
+                        <li>2 tbsp oil</li>
+                        <li>1 onion (finely chopped)</li>
+                        <li>2 tomatoes (pureed)</li>
+                        <li>1 tsp ginger-garlic paste</li>
+                        <li>1 tsp chole masala</li>
+                        <li>1 tsp cumin seeds</li>
+                        <li>1 tsp turmeric powder</li>
+                        <li>Salt to taste</li>
+                    </ul>
+                    <h4>Instructions:</h4>
+                    <ol>
+                        <li>Boil soaked chickpeas with salt until soft.</li>
+                        <li>In a pan, heat oil, add cumin seeds, and sauté onions till golden.</li>
+                        <li>Add ginger-garlic paste, tomato puree, and spices. Cook till oil separates.</li>
+                        <li>Add boiled chickpeas and simmer for 10 minutes. Garnish with coriander.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Flexbox container for Chocolate Ice Cream recipe -->
+            <div class="recipe-flex">
+                <div class="recipe-image">
+                    <img src="ice cream.jpeg" alt="Chocolate Ice Cream" class="profile-photo2">
+                </div>
+                <div class="recipe-text">
+                    <h3>Chocolate Ice Cream Recipe</h3>
+                    <p><strong>Ingredients:</strong></p>
+                    <ul>
+                        <li>2 cups heavy cream</li>
+                        <li>1 cup sweetened condensed milk</li>
+                        <li>1/2 cup cocoa powder</li>
+                        <li>1 tsp vanilla extract</li>
+                        <li>1/2 cup chocolate chips (optional)</li>
+                    </ul>
+                    <h4>Instructions:</h4>
+                    <ol>
+                        <li>Whip the heavy cream until stiff peaks form.</li>
+                        <li>In a separate bowl, mix condensed milk, cocoa powder, and vanilla extract.</li>
+                        <li>Gently fold the whipped cream into the chocolate mixture.</li>
+                        <li>Add chocolate chips if desired.</li>
+                        <li>Pour the mixture into a container and freeze for 6-8 hours.</li>
+                    </ol>
+                </div>
+            </div>
+
+        </section>
+
+        
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <form action="mailto:saraswatikumari24@navgurukul.org" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        
+
+        <section class="cuisine">
+            <h2>Favorite Cuisine</h2>
+            <img src="indian cusinie.jpeg" alt="Indian Cuisine" class="profile-photo3">
+            <p>Indian Cuisine is my favorite, filled with bold flavors and spices that bring out the taste of our rich culture!</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

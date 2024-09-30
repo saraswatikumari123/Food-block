@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* off-white */
+    color: #4b0082; /* purple */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4b0082; /* purple */
+    color: white;
+}
+
+.profile {
+    margin: 20px;
+}
+
+.profile-photo4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+main {
+    padding: 20px;
+}
+
+.recipes {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #e6e6fa; /* light lavender */
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Flexbox layout for image and recipe text */
+.recipe-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for recipe image */
+.recipe-image {
+    flex: 1;
+    text-align: center;
+}
+
+.recipe-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #4b0082;
+}
+
+/* Styling for recipe text */
+.recipe-text {
+    flex: 2;
+    text-align: left;
+}
+
+.recipe-text ul, .recipe-text ol {
+    text-align: left;
+    padding-left: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff8c00; /* orange */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ffa500; /* lighter orange */
+}
+
+.cuisine img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #4b0082;
+}
+
+/* Contact Form Styling */
+.contact {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e6e6fa;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #4b0082;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4b0082;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #6a0dad;
+}
+
+
+/* Ras Malai Recipe Styling */
+.recipe {
+    background-color: #fff;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.recipe h2 {
+    color: #4b0082;
+    margin-bottom: 15px;
+}
+
+.recipe ul, .recipe ol {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4b0082;
+    color: white;
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
